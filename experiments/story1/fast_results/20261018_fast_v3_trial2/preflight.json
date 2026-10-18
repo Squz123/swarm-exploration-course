@@ -1,0 +1,20 @@
+{
+  "max_command_speed_exact_mps": 5.541731742118173,
+  "max_command_acceleration_exact_mps2": 2.5200000000000014,
+  "min_pair_continuous_lower_bound_m": 0.810782308707403,
+  "min_obstacle_continuous_lower_bound_m": 0.4148197466263734,
+  "max_command_height_m": 7.85,
+  "planned_finish_s": 51.5424783450123,
+  "acceleration_energy": 811.5355617906672,
+  "pass": true,
+  "time_plus_energy_cost": 51.94824612590763,
+  "departure_delays_s": [
+    0.0,
+    0.5,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "ownership_changes": 2
+}

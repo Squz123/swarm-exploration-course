@@ -1,0 +1,72 @@
+[
+  {
+    "alpha": 0.7,
+    "vmax": 5.98,
+    "amax": 2.52,
+    "altitude": 7.97,
+    "max_command_speed_exact_mps": 5.961377205864022,
+    "max_command_acceleration_exact_mps2": 2.52000000000006,
+    "min_pair_continuous_lower_bound_m": 0.8113522737511824,
+    "min_obstacle_continuous_lower_bound_m": 0.49594172427188293,
+    "max_command_height_m": 7.97,
+    "planned_finish_s": 49.207784195028424,
+    "acceleration_energy": 744.6125577560972,
+    "pass": true,
+    "uncovered_conservative_swept_cells": 0,
+    "time_plus_energy_cost": 49.58009047390647,
+    "departure_delays_s": [
+      0.0,
+      0.0,
+      0.0,
+      2.5,
+      5.0,
+      0.9
+    ],
+    "extra_gap_filling_observations": 17,
+    "planning_wall_s": 5.018636033
+  },
+  {
+    "alpha": 1.0,
+    "vmax": 5.98,
+    "amax": 2.52,
+    "altitude": 7.97,
+    "pass": false,
+    "rejection": "Stripe swept coverage incomplete: 29",
+    "planning_wall_s": 6.181640250999999
+  },
+  {
+    "alpha": 1.25,
+    "vmax": 5.98,
+    "amax": 2.52,
+    "altitude": 7.97,
+    "max_command_speed_exact_mps": 5.974982953892015,
+    "max_command_acceleration_exact_mps2": 2.52000000000006,
+    "min_pair_continuous_lower_bound_m": 0.7875395999397846,
+    "min_obstacle_continuous_lower_bound_m": 0.4016266199526797,
+    "max_command_height_m": 7.97,
+    "planned_finish_s": 49.360229284879985,
+    "acceleration_energy": 693.9183094591466,
+    "pass": true,
+    "uncovered_conservative_swept_cells": 0,
+    "time_plus_energy_cost": 49.70718843960956,
+    "departure_delays_s": [
+      0.0,
+      1.7000000000000002,
+      0.0,
+      0.0,
+      2.8000000000000003,
+      1.2000000000000002
+    ],
+    "extra_gap_filling_observations": 22,
+    "planning_wall_s": 7.456106592000001
+  },
+  {
+    "alpha": 1.5,
+    "vmax": 5.98,
+    "amax": 2.52,
+    "altitude": 7.97,
+    "pass": false,
+    "rejection": "Stripe swept coverage incomplete: 4228",
+    "planning_wall_s": 7.620682737999999
+  }
+]

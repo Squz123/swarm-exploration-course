@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-18",
+  "scope": "Separate publication checkout, Ubuntu 20.04 in WSL2, original ROS simulator",
+  "checks": [
+    "fresh catkin workspace build",
+    "polynomial endpoint and continuity checks",
+    "exact dynamic extrema checks",
+    "deliberate collision negative control",
+    "exact obstacle raster denominator",
+    "30 frozen offline holdout runs",
+    "shell syntax",
+    "Windows launcher full flight",
+    "Linux shell full flight",
+    "headless full flight without DISPLAY/Wayland"
+  ],
+  "runs": [
+    {
+      "run": "portable_validation_gui",
+      "teacher_seconds": 50.274,
+      "actual_speed": 5.8318468116240645,
+      "actual_acceleration": 2.9766826884713056,
+      "actual_height": 7.971973851494992,
+      "pass": true
+    },
+    {
+      "run": "20261018_154042_FAST",
+      "teacher_seconds": 50.19,
+      "actual_speed": 5.8304028801727,
+      "actual_acceleration": 2.995340220344554,
+      "actual_height": 7.971963556000595,
+      "pass": true
+    },
+    {
+      "run": "portable_validation_headless",
+      "teacher_seconds": 50.299,
+      "actual_speed": 5.831764361497836,
+      "actual_acceleration": 2.99679119226813,
+      "actual_height": 7.971957746266145,
+      "pass": true
+    }
+  ],
+  "source_sha256": {
+    "experiments\\story1\\fast_plan.py": "6888fc611561a270e3f8d40d713228e78b8e8b87766e41ed1b298416bb268ba1",
+    "experiments\\story1\\fast_flight.py": "b645573d22578739d574a4da112252dc33821056a3c24f6cfed62e1f6ce2fa1c",
+    "experiments\\story1\\ros_flight.py": "84c234042a5334c318b923ab7495d39f350f691677c349bf9473975041850cb4"
+  }
+}

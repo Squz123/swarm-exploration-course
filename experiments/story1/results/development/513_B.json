@@ -1,0 +1,15 @@
+{
+  "seed": 513,
+  "variant": "B",
+  "status": "invalid_initial_state",
+  "initial_obstacle_point_distance_m": 0.1722210321764294,
+  "initial_vehicle_point_distances_m": [
+    0.9875331545518236,
+    1.5216223762533467,
+    1.7895002437117016,
+    0.1722210321764294,
+    1.1703730210918741,
+    2.170227161629751
+  ],
+  "reason": "At least one launch position is already within the coursework 0.2 m obstacle-point collision threshold. Map was not regenerated."
+}

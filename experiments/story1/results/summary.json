@@ -1,0 +1,293 @@
+{
+  "scope": "Windows local kinematic benchmark, NOT original ROS simulator acceptance",
+  "environment": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.14"
+  },
+  "holdout_maps": [
+    514,
+    515,
+    516,
+    517,
+    518,
+    519,
+    520,
+    521,
+    522,
+    523
+  ],
+  "mean_t100_simulated_seconds": {
+    "A": 90.13000000000001,
+    "B": 78.18,
+    "C": 77.98
+  },
+  "C_vs_A_mean_improvement_percent": 13.48052812604017,
+  "B_vs_A_mean_improvement_percent": 13.258626428492182,
+  "C_vs_B_mean_extra_seconds_saved": 0.20000000000000284,
+  "improved_maps": 10,
+  "all_holdout_coverage_and_safety_pass": true,
+  "source_style_100hz_C_coverage_recheck_all_pass": true,
+  "predeclared_local_stop_condition_pass": true,
+  "holdout_help_transfers": 1,
+  "invalid_input_maps": [
+    {
+      "seed": 513,
+      "variant": "A",
+      "status": "invalid_initial_state",
+      "initial_obstacle_point_distance_m": 0.1722210321764294,
+      "initial_vehicle_point_distances_m": [
+        0.9875331545518236,
+        1.5216223762533467,
+        1.7895002437117016,
+        0.1722210321764294,
+        1.1703730210918741,
+        2.170227161629751
+      ],
+      "reason": "At least one launch position is already within the coursework 0.2 m obstacle-point collision threshold. Map was not regenerated.",
+      "split": "development"
+    }
+  ],
+  "per_map": [
+    {
+      "seed": 514,
+      "A_s": 88.5,
+      "B_s": 75.9,
+      "C_s": 75.9,
+      "A_to_C_improvement_percent": 14.237288135593218
+    },
+    {
+      "seed": 515,
+      "A_s": 99.10000000000001,
+      "B_s": 82.7,
+      "C_s": 82.7,
+      "A_to_C_improvement_percent": 16.548940464177598
+    },
+    {
+      "seed": 516,
+      "A_s": 90.30000000000001,
+      "B_s": 76.80000000000001,
+      "C_s": 76.80000000000001,
+      "A_to_C_improvement_percent": 14.950166112956808
+    },
+    {
+      "seed": 517,
+      "A_s": 87.5,
+      "B_s": 78.0,
+      "C_s": 76.0,
+      "A_to_C_improvement_percent": 13.142857142857146
+    },
+    {
+      "seed": 518,
+      "A_s": 85.5,
+      "B_s": 78.7,
+      "C_s": 78.7,
+      "A_to_C_improvement_percent": 7.953216374269001
+    },
+    {
+      "seed": 519,
+      "A_s": 94.0,
+      "B_s": 81.30000000000001,
+      "C_s": 81.30000000000001,
+      "A_to_C_improvement_percent": 13.510638297872324
+    },
+    {
+      "seed": 520,
+      "A_s": 88.30000000000001,
+      "B_s": 79.5,
+      "C_s": 79.5,
+      "A_to_C_improvement_percent": 9.966024915062299
+    },
+    {
+      "seed": 521,
+      "A_s": 93.9,
+      "B_s": 79.2,
+      "C_s": 79.2,
+      "A_to_C_improvement_percent": 15.65495207667732
+    },
+    {
+      "seed": 522,
+      "A_s": 86.7,
+      "B_s": 76.4,
+      "C_s": 76.4,
+      "A_to_C_improvement_percent": 11.880046136101496
+    },
+    {
+      "seed": 523,
+      "A_s": 87.5,
+      "B_s": 73.3,
+      "C_s": 73.3,
+      "A_to_C_improvement_percent": 16.228571428571435
+    }
+  ],
+  "coverage_rechecks": [
+    {
+      "seed": 511,
+      "variant": "A",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 69.94,
+      "source_style_t100_s": 87.24,
+      "benchmark_conservative_t100_s": 87.5,
+      "recheck_wall_s": 7.57
+    },
+    {
+      "seed": 511,
+      "variant": "B",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 66.62,
+      "source_style_t100_s": 77.04,
+      "benchmark_conservative_t100_s": 77.30000000000001,
+      "recheck_wall_s": 6.933
+    },
+    {
+      "seed": 511,
+      "variant": "C",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 66.62,
+      "source_style_t100_s": 77.04,
+      "benchmark_conservative_t100_s": 77.30000000000001,
+      "recheck_wall_s": 7.037
+    },
+    {
+      "seed": 514,
+      "variant": "C",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 68.38,
+      "source_style_t100_s": 75.64,
+      "benchmark_conservative_t100_s": 75.9,
+      "recheck_wall_s": 6.964
+    },
+    {
+      "seed": 515,
+      "variant": "C",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 68.94,
+      "source_style_t100_s": 82.57000000000001,
+      "benchmark_conservative_t100_s": 82.7,
+      "recheck_wall_s": 7.035
+    },
+    {
+      "seed": 516,
+      "variant": "C",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 67.66,
+      "source_style_t100_s": 76.55,
+      "benchmark_conservative_t100_s": 76.80000000000001,
+      "recheck_wall_s": 6.977
+    },
+    {
+      "seed": 517,
+      "variant": "C",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 67.32000000000001,
+      "source_style_t100_s": 75.83,
+      "benchmark_conservative_t100_s": 76.0,
+      "recheck_wall_s": 6.719
+    },
+    {
+      "seed": 518,
+      "variant": "C",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 69.24,
+      "source_style_t100_s": 78.44,
+      "benchmark_conservative_t100_s": 78.7,
+      "recheck_wall_s": 6.934
+    },
+    {
+      "seed": 519,
+      "variant": "C",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 68.38,
+      "source_style_t100_s": 81.17,
+      "benchmark_conservative_t100_s": 81.30000000000001,
+      "recheck_wall_s": 7.043
+    },
+    {
+      "seed": 520,
+      "variant": "C",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 66.82000000000001,
+      "source_style_t100_s": 79.24,
+      "benchmark_conservative_t100_s": 79.5,
+      "recheck_wall_s": 7.135
+    },
+    {
+      "seed": 521,
+      "variant": "C",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 67.2,
+      "source_style_t100_s": 79.07000000000001,
+      "benchmark_conservative_t100_s": 79.2,
+      "recheck_wall_s": 7.061
+    },
+    {
+      "seed": 522,
+      "variant": "C",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 68.12,
+      "source_style_t100_s": 76.21000000000001,
+      "benchmark_conservative_t100_s": 76.4,
+      "recheck_wall_s": 6.858
+    },
+    {
+      "seed": 523,
+      "variant": "C",
+      "scope": "Separate source-style rasterization replay, no ROS execution",
+      "replay_dt_s": 0.01,
+      "coverage": 1.0,
+      "uncovered_cells": 0,
+      "source_style_t95_s": 66.06,
+      "source_style_t100_s": 73.04,
+      "benchmark_conservative_t100_s": 73.3,
+      "recheck_wall_s": 6.477
+    }
+  ],
+  "file_sha256": {
+    "benchmark.py": "1c4d9527308a18d23647bed9d6d764c9ed040acce86b2a085de625609c5460ab",
+    "PLAN.md": "bcf27d543434acd7701304e642c134580098f550692fb753dd97c259826c9518",
+    "recheck_coverage.py": "098add9f66f3d229984a009bc2113794169d369504b628d3e73921480fe04976"
+  },
+  "limitations": [
+    "No ROS/SO3/PID tracking simulation or teacher-node execution.",
+    "Map PRNG emulates usual Ubuntu libstdc++ defaults; no live map equality check.",
+    "Global source point map is available to the planner, as in assignment.",
+    "Simulation time excludes offline planning and online scheduling CPU time; wall times are separate.",
+    "Deterministic geometry tests, not repeated physical/noisy flight trials.",
+    "No direct execution of M-TARE, C2-Explorer, or URGE; their ideas inform a smaller coursework planner."
+  ]
+}

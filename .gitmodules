@@ -1,0 +1,3 @@
+[submodule "swarm_intelligent_robot_course_task"]
+	path = swarm_intelligent_robot_course_task
+	url = https://github.com/SKBT-lab/swarm_intelligent_robot_course_task.git

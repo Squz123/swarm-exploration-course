@@ -1,0 +1,14 @@
+{
+  "only_original_launch_change": "RViz configuration path",
+  "added_node": "display-only message relay",
+  "original_task_elements_match": true,
+  "original_displays": 122,
+  "active_displays": 17,
+  "requested_render_fps": 60,
+  "display_grid_hz": 5,
+  "display_robot_max_hz": 60,
+  "display_fov_max_hz": 30,
+  "cloud_style": "Points; all original points retained",
+  "flight_and_teacher_topics_unchanged": true,
+  "rviz_enabled": true
+}

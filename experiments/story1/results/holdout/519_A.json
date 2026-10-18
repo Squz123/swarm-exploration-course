@@ -1,0 +1,41 @@
+{
+  "seed": 519,
+  "variant": "A",
+  "status": "complete",
+  "coverage": 1.0,
+  "uncovered_cells": 0,
+  "t95_s": 68.5,
+  "t100_s": 94.0,
+  "elapsed_sim_s": 94.0,
+  "world_and_initial_plan_wall_s": 0.6382,
+  "experiment_wall_s": 3.0045,
+  "free_cells": 237278,
+  "viewpoints": 121,
+  "initial_ownership_changes": 0,
+  "help_transfers": 0,
+  "initial_predicted_route_s": [
+    59.973,
+    64.615,
+    67.751,
+    84.714,
+    90.58,
+    60.781
+  ],
+  "reservation_wait_s": 5.2,
+  "blocked_schedule_attempts": 0,
+  "dispatched_tasks": 121,
+  "safety": {
+    "pass": true,
+    "replay_dt_s": 0.02,
+    "min_pair_sample_m": 0.987272,
+    "min_pair_certified_lower_bound_m": 0.877272,
+    "min_solid_obstacle_sample_m": 0.646802,
+    "min_obstacle_certified_lower_bound_m": 0.591802,
+    "analytic_max_speed_mps": 5.5,
+    "analytic_max_acceleration_mps2": 2.324056,
+    "max_height_m": 7.5,
+    "flown_distance_m": 657.158,
+    "acceleration_squared_integral_proxy": 1254.242
+  },
+  "help_events": []
+}

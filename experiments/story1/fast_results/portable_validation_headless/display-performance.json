@@ -1,0 +1,29 @@
+{
+  "display_mode": "smooth",
+  "sample_seconds": 20.017403620999985,
+  "cpu_percent_of_one_core": {
+    "fov_visualizer": 7.843175017727746,
+    "region_visualiz": 38.71630980088537,
+    "display_relay": 11.290175503225926
+  },
+  "topics": {
+    "/exploration_grid": {
+      "received_hz": 600.1777367068862,
+      "received_MB_per_s": 150.10505212812893
+    },
+    "/course_display/exploration_grid": {
+      "received_hz": 4.995652877533596,
+      "received_MB_per_s": 1.24941778032403
+    },
+    "/uav2/odom_visualization/robot": {
+      "received_hz": 100.01297060822259,
+      "received_MB_per_s": 0.021502788680767854
+    },
+    "/course_display/uav2/odom_visualization/robot": {
+      "received_hz": 50.006485304111294,
+      "received_MB_per_s": 0.010751394340383927
+    }
+  },
+  "render_fps_measured": false,
+  "actual_render_fps": null
+}

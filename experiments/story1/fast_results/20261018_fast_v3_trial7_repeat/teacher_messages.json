@@ -1,0 +1,92 @@
+[
+  {
+    "stamp": 1792306776.2034483,
+    "level": 4,
+    "text": "Map not processed yet, skipping exploration update"
+  },
+  {
+    "stamp": 1792306776.956,
+    "level": 2,
+    "text": "Grid statistics: Total=250000, Obstacles=11636, Explorable=238364"
+  },
+  {
+    "stamp": 1792306826.1934776,
+    "level": 2,
+    "text": "  MISSION SUCCESS! "
+  },
+  {
+    "stamp": 1792306826.193495,
+    "level": 2,
+    "text": "Exploration progress: 100.0% (238364/238364 cells)"
+  },
+  {
+    "stamp": 1792306826.1935139,
+    "level": 2,
+    "text": "  MISSION SUMMARY:"
+  },
+  {
+    "stamp": 1792306826.1935198,
+    "level": 2,
+    "text": "Total mission time: 50.168 seconds"
+  },
+  {
+    "stamp": 1792306826.1935267,
+    "level": 2,
+    "text": "Collision statistics:"
+  },
+  {
+    "stamp": 1792306826.1935718,
+    "level": 2,
+    "text": "Speed violations: 0"
+  },
+  {
+    "stamp": 1792306826.1936016,
+    "level": 2,
+    "text": "Distance violations:"
+  },
+  {
+    "stamp": 1792306826.1936464,
+    "level": 2,
+    "text": "Height violations: 0"
+  },
+  {
+    "stamp": 1792306826.1936526,
+    "level": 2,
+    "text": "Per-UAV statistics:"
+  },
+  {
+    "stamp": 1792306826.1936612,
+    "level": 2,
+    "text": "  uav2: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792306826.19369,
+    "level": 2,
+    "text": "  uav3: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792306826.1936977,
+    "level": 2,
+    "text": "  uav4: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792306826.1937268,
+    "level": 2,
+    "text": "  uav5: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792306826.193734,
+    "level": 2,
+    "text": "  uav6: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792306826.1937392,
+    "level": 2,
+    "text": "  uav7: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792306826.193745,
+    "level": 2,
+    "text": "  Perfect mission! No rule violations detected."
+  }
+]

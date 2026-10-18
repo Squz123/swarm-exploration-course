@@ -1,0 +1,12 @@
+{
+  "seed": 511,
+  "variant": "B",
+  "scope": "Separate source-style rasterization replay, no ROS execution",
+  "replay_dt_s": 0.01,
+  "coverage": 1.0,
+  "uncovered_cells": 0,
+  "source_style_t95_s": 66.62,
+  "source_style_t100_s": 77.04,
+  "benchmark_conservative_t100_s": 77.30000000000001,
+  "recheck_wall_s": 6.933
+}

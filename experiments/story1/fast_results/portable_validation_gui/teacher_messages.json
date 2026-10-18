@@ -1,0 +1,92 @@
+[
+  {
+    "stamp": 1792308894.184557,
+    "level": 4,
+    "text": "Map not processed yet, skipping exploration update"
+  },
+  {
+    "stamp": 1792308894.9045832,
+    "level": 2,
+    "text": "Grid statistics: Total=250000, Obstacles=11636, Explorable=238364"
+  },
+  {
+    "stamp": 1792308944.2648234,
+    "level": 2,
+    "text": "  MISSION SUCCESS! "
+  },
+  {
+    "stamp": 1792308944.264835,
+    "level": 2,
+    "text": "Exploration progress: 100.0% (238364/238364 cells)"
+  },
+  {
+    "stamp": 1792308944.2648456,
+    "level": 2,
+    "text": "  MISSION SUMMARY:"
+  },
+  {
+    "stamp": 1792308944.2648487,
+    "level": 2,
+    "text": "Total mission time: 50.274 seconds"
+  },
+  {
+    "stamp": 1792308944.2648516,
+    "level": 2,
+    "text": "Collision statistics:"
+  },
+  {
+    "stamp": 1792308944.2648602,
+    "level": 2,
+    "text": "Speed violations: 0"
+  },
+  {
+    "stamp": 1792308944.2648628,
+    "level": 2,
+    "text": "Distance violations:"
+  },
+  {
+    "stamp": 1792308944.2648716,
+    "level": 2,
+    "text": "Height violations: 0"
+  },
+  {
+    "stamp": 1792308944.264874,
+    "level": 2,
+    "text": "Per-UAV statistics:"
+  },
+  {
+    "stamp": 1792308944.2648778,
+    "level": 2,
+    "text": "  uav2: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792308944.2648807,
+    "level": 2,
+    "text": "  uav3: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792308944.2648833,
+    "level": 2,
+    "text": "  uav4: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792308944.264886,
+    "level": 2,
+    "text": "  uav5: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792308944.2648885,
+    "level": 2,
+    "text": "  uav6: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792308944.2648911,
+    "level": 2,
+    "text": "  uav7: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792308944.264894,
+    "level": 2,
+    "text": "  Perfect mission! No rule violations detected."
+  }
+]

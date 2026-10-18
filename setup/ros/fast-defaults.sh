@@ -1,0 +1,10 @@
+# Final measured task-three preset; environment variables can override it.
+export COURSE_VMAX=${COURSE_VMAX:-5.98}
+export COURSE_AMAX=${COURSE_AMAX:-2.84}
+export COURSE_ENTRY_AMAX=${COURSE_ENTRY_AMAX:-2.4}
+export COURSE_ALTITUDE=${COURSE_ALTITUDE:-7.97}
+export COURSE_TARGET_GRID=${COURSE_TARGET_GRID:-10}
+export COURSE_ALPHA=${COURSE_ALPHA:-1.0}
+export COURSE_CURVE=${COURSE_CURVE:-cubic_energy}
+export COURSE_PRUNE=${COURSE_PRUNE:-false}
+export COURSE_TAKEOFF_BUFFER=${COURSE_TAKEOFF_BUFFER:-0.0}

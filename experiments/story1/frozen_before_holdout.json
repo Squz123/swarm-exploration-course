@@ -1,0 +1,12 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "1C4D9527308A18D23647BED9D6D764C9ED040ACCE86B2A085DE625609C5460AB",
+    "Path": "D:\\gpt-workspace\\robots\\experiments\\story1\\benchmark.py"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "BCF27D543434ACD7701304E642C134580098F550692FB753DD97C259826C9518",
+    "Path": "D:\\gpt-workspace\\robots\\experiments\\story1\\PLAN.md"
+  }
+]

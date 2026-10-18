@@ -1,0 +1,87 @@
+[
+  {
+    "stamp": 1792304780.9640977,
+    "level": 2,
+    "text": "Grid statistics: Total=250000, Obstacles=11636, Explorable=238364"
+  },
+  {
+    "stamp": 1792304894.040046,
+    "level": 2,
+    "text": "  MISSION SUCCESS! "
+  },
+  {
+    "stamp": 1792304894.0400572,
+    "level": 2,
+    "text": "Exploration progress: 100.0% (238364/238364 cells)"
+  },
+  {
+    "stamp": 1792304894.0400674,
+    "level": 2,
+    "text": "  MISSION SUMMARY:"
+  },
+  {
+    "stamp": 1792304894.0400705,
+    "level": 2,
+    "text": "Total mission time: 113.999 seconds"
+  },
+  {
+    "stamp": 1792304894.0400734,
+    "level": 2,
+    "text": "Collision statistics:"
+  },
+  {
+    "stamp": 1792304894.0400827,
+    "level": 2,
+    "text": "Speed violations: 0"
+  },
+  {
+    "stamp": 1792304894.0400853,
+    "level": 2,
+    "text": "Distance violations:"
+  },
+  {
+    "stamp": 1792304894.040095,
+    "level": 2,
+    "text": "Height violations: 0"
+  },
+  {
+    "stamp": 1792304894.0405798,
+    "level": 2,
+    "text": "Per-UAV statistics:"
+  },
+  {
+    "stamp": 1792304894.0406086,
+    "level": 2,
+    "text": "  uav2: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792304894.0406137,
+    "level": 2,
+    "text": "  uav3: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792304894.04067,
+    "level": 2,
+    "text": "  uav4: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792304894.0406942,
+    "level": 2,
+    "text": "  uav5: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792304894.0406997,
+    "level": 2,
+    "text": "  uav6: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792304894.0407028,
+    "level": 2,
+    "text": "  uav7: Speed violations: 0, Height violations: 0"
+  },
+  {
+    "stamp": 1792304894.0407066,
+    "level": 2,
+    "text": "  Perfect mission! No rule violations detected."
+  }
+]

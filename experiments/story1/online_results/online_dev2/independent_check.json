@@ -1,0 +1,13 @@
+{
+  "run": "online_dev2",
+  "pass": true,
+  "teacher_seconds": 144.656,
+  "actual_assignment_messages": 100,
+  "six_peer_agreement_rounds": 158,
+  "peer_messages_benefiting_from_shared_coverage": 948,
+  "fault_injections_safely_aborted": 0,
+  "paused_states": 0,
+  "other_assignments_during_pause": 0,
+  "allocation_rounds_changed_by_pause_message": 0,
+  "accepted_segments_with_analytic_dynamic_check": 102
+}

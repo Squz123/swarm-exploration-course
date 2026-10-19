@@ -19,6 +19,7 @@ setup/ros/downloads/
 experiments/story1/results/
 experiments/story1/ros_results/
 experiments/story1/fast_results/
+experiments/story1/online_results/
 setup/ros/smooth.rviz
 setup/ros/original_probe.rviz
 setup/ros/task3_smooth.launch

@@ -1,0 +1,13 @@
+{
+  "run": "20261019_224436_ONLINE",
+  "pass": true,
+  "teacher_seconds": 150.227,
+  "actual_assignment_messages": 100,
+  "six_peer_agreement_rounds": 161,
+  "peer_messages_benefiting_from_shared_coverage": 966,
+  "fault_injections_safely_aborted": 1,
+  "paused_states": 28,
+  "other_assignments_during_pause": 17,
+  "allocation_rounds_changed_by_pause_message": 24,
+  "accepted_segments_with_analytic_dynamic_check": 109
+}

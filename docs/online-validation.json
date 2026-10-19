@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-19",
+  "source_sha256": {
+    "experiments/story1/online_agent.py": "82041f91c2287fc8ed88c5dea99142949f738176424e805893f88dcb30acef0c",
+    "experiments/story1/online_protocol.py": "59337832fb989fdac3759b7ca4fefc03d482989c2ffbd2505c7b19a10a6e2ee9",
+    "experiments/story1/online_flight.py": "0df4afb15d58063968a1e4622c17e7bdf62d7a6c68bbf34584109083d28a2a65",
+    "experiments/story1/check_online_run.py": "a0836854074fe10583ac9b3c9556261ab89a0ba836cdb6ffea79ae943b4aa417",
+    "experiments\\story1\\ros_package\\src\\online_trajectory_server.cpp": "d25e53ba468da8f9b1aeb8aa307e8de76e832278f42e77840ffa3f14e9c12a4d"
+  },
+  "runs": [
+    {
+      "run": "online_dev2",
+      "result": {
+        "status": "complete",
+        "coverage": 1.0,
+        "teacher_success_log_seen": true,
+        "teacher_mission_duration_wall_s": 144.656,
+        "teacher_rule_warnings": [],
+        "max_actual_speed_mps": 4.486568105815564,
+        "max_actual_acceleration_mps2_from_simulator_imu": 2.604902455081029,
+        "max_actual_height_m": 7.501213980390081,
+        "min_actual_pair_distance_sample_m": 0.9999999995109566,
+        "min_actual_obstacle_point_distance_sample_m": 0.543981444769904,
+        "actual_limits_pass": true,
+        "protocol": "six independent ROS peers; all six votes required; clock has no allocation function",
+        "teacher_grid_used_for_decisions": false,
+        "global_obstacle_map_used_for_navigation": true,
+        "online_assignments": 100,
+        "committed_rounds": 158,
+        "aborted_rounds": 0,
+        "pause_uav": -1,
+        "motion_and_settle_wall_s": 142.81203483853884,
+        "all_original_parameters_preserved": true,
+        "vmax": 4.5,
+        "amax": 2.2,
+        "altitude": 7.5
+      },
+      "independent_check": {
+        "run": "online_dev2",
+        "pass": true,
+        "teacher_seconds": 144.656,
+        "actual_assignment_messages": 100,
+        "six_peer_agreement_rounds": 158,
+        "peer_messages_benefiting_from_shared_coverage": 948,
+        "fault_injections_safely_aborted": 0,
+        "paused_states": 0,
+        "other_assignments_during_pause": 0,
+        "allocation_rounds_changed_by_pause_message": 0,
+        "accepted_segments_with_analytic_dynamic_check": 102
+      }
+    },
+    {
+      "run": "20261019_224436_ONLINE",
+      "result": {
+        "status": "complete",
+        "coverage": 1.0,
+        "teacher_success_log_seen": true,
+        "teacher_mission_duration_wall_s": 150.227,
+        "teacher_rule_warnings": [],
+        "max_actual_speed_mps": 4.489658213864207,
+        "max_actual_acceleration_mps2_from_simulator_imu": 2.7320350613436393,
+        "max_actual_height_m": 7.501205656894462,
+        "min_actual_pair_distance_sample_m": 0.9997231308880287,
+        "min_actual_obstacle_point_distance_sample_m": 0.5436387079720563,
+        "actual_limits_pass": true,
+        "protocol": "six independent ROS peers; all six votes required; clock has no allocation function",
+        "teacher_grid_used_for_decisions": false,
+        "global_obstacle_map_used_for_navigation": true,
+        "online_assignments": 100,
+        "committed_rounds": 161,
+        "mission_epoch": 1792421087.0444798,
+        "assignment_acknowledgements_missing": [],
+        "aborted_rounds": 1,
+        "pause_uav": 0,
+        "motion_and_settle_wall_s": 148.12486197671478,
+        "all_original_parameters_preserved": true,
+        "vmax": 4.5,
+        "amax": 2.2,
+        "altitude": 7.5
+      },
+      "independent_check": {
+        "run": "20261019_224436_ONLINE",
+        "pass": true,
+        "teacher_seconds": 150.227,
+        "actual_assignment_messages": 100,
+        "six_peer_agreement_rounds": 161,
+        "peer_messages_benefiting_from_shared_coverage": 966,
+        "fault_injections_safely_aborted": 1,
+        "paused_states": 28,
+        "other_assignments_during_pause": 17,
+        "allocation_rounds_changed_by_pause_message": 24,
+        "accepted_segments_with_analytic_dynamic_check": 109
+      }
+    }
+  ]
+}

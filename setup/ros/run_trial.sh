@@ -6,6 +6,7 @@ NAME=${2:-$(date +%Y%m%d_%H%M%S)_$VARIANT}
 PLANNER=${COURSE_PLANNER:-stop}
 RESULT_FOLDER=ros_results
 if [ "$PLANNER" = fast ]; then RESULT_FOLDER=fast_results; fi
+if [ "$PLANNER" = online ]; then RESULT_FOLDER=online_results; fi
 OUT="$ROOT/experiments/story1/$RESULT_FOLDER/$NAME"
 mkdir -p "$OUT"
 if [ ! -f "$WS/devel/setup.bash" ]; then
@@ -92,6 +93,13 @@ if [ "$PLANNER" = fast ]; then
   PROBE_DELAY=5
   PROBE_DURATION=20
   EXTRA_ARGS=( _coverage_topic:=/course_display/exploration_grid _vmax:=${COURSE_VMAX:-5.7} _amax:=${COURSE_AMAX:-2.7} _altitude:=${COURSE_ALTITUDE:-7.85} _target_grid:=${COURSE_TARGET_GRID:-10} _alpha:=${COURSE_ALPHA:-1.0} _prune:=${COURSE_PRUNE:-false} _curve:=${COURSE_CURVE:-zero_acc} _takeoff_buffer:=${COURSE_TAKEOFF_BUFFER:-0.0} _entry_amax:=${COURSE_ENTRY_AMAX:-${COURSE_AMAX:-2.7}} )
+fi
+if [ "$PLANNER" = online ]; then
+  SERVER=online_trajectory_server
+  SCRIPT=online_flight.py
+  PROBE_DELAY=5
+  PROBE_DURATION=20
+  EXTRA_ARGS=( _coverage_topic:=/course_display/exploration_grid _pause_uav:=${COURSE_ONLINE_PAUSE_UAV:--1} _pause_at:=${COURSE_ONLINE_PAUSE_AT:-25} _pause_for:=${COURSE_ONLINE_PAUSE_FOR:-25} _drop_bid_round:=${COURSE_ONLINE_DROP_ROUND:--1} _max_seconds:=${COURSE_ONLINE_TIMEOUT:-600} )
 fi
 rosrun course_story1 "$SERVER" > "$OUT/trajectory-server.log" 2>&1 &
 SERVER_PID=$!

@@ -1,4 +1,4 @@
-param([ValidateSet('Fast','Baseline')][string]$Mode='Fast')
+param([ValidateSet('Fast','Baseline','Online')][string]$Mode='Fast')
 $ErrorActionPreference='Stop'
 $projectRoot=[IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..\..'))
 $localFile=Join-Path $projectRoot 'local-settings.json'
@@ -26,8 +26,13 @@ if ($convertCode -ne 0) {
 }
 $linuxRoot=($converted -join "`n").Replace([string][char]0,'').Trim()
 if (-not $linuxRoot.StartsWith('/')) { Write-Error 'WSL returned an unexpected path.'; exit 2 }
-$script=if ($Mode -eq 'Fast') { 'run_fast.sh' } else { 'run_trial.sh' }
+$script=switch ($Mode) { 'Fast' { 'run_fast.sh' } 'Online' { 'run_online.sh' } default { 'run_trial.sh' } }
 Write-Host "Running $Mode in WSL distribution $distro"
-if ($Mode -eq 'Fast') { & $wsl -d $distro --exec bash "$linuxRoot/setup/ros/$script" }
-else { & $wsl -d $distro --exec bash "$linuxRoot/setup/ros/$script" B }
+$forward=@()
+foreach ($name in @('COURSE_ROS_PORT','COURSE_GUI','COURSE_ONLINE_PAUSE_UAV','COURSE_ONLINE_PAUSE_AT','COURSE_ONLINE_PAUSE_FOR','COURSE_ONLINE_DROP_ROUND','COURSE_ONLINE_TIMEOUT')) {
+    $value=[Environment]::GetEnvironmentVariable($name)
+    if ($value) { $forward+="$name=$value" }
+}
+if ($Mode -eq 'Baseline') { & $wsl -d $distro --exec env @forward bash "$linuxRoot/setup/ros/$script" B }
+else { & $wsl -d $distro --exec env @forward bash "$linuxRoot/setup/ros/$script" }
 exit $LASTEXITCODE

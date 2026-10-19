@@ -5,7 +5,7 @@
     "experiments/story1/online_protocol.py": "59337832fb989fdac3759b7ca4fefc03d482989c2ffbd2505c7b19a10a6e2ee9",
     "experiments/story1/online_flight.py": "0df4afb15d58063968a1e4622c17e7bdf62d7a6c68bbf34584109083d28a2a65",
     "experiments/story1/check_online_run.py": "a0836854074fe10583ac9b3c9556261ab89a0ba836cdb6ffea79ae943b4aa417",
-    "experiments\\story1\\ros_package\\src\\online_trajectory_server.cpp": "d25e53ba468da8f9b1aeb8aa307e8de76e832278f42e77840ffa3f14e9c12a4d"
+    "experiments/story1/ros_package/src/online_trajectory_server.cpp": "d25e53ba468da8f9b1aeb8aa307e8de76e832278f42e77840ffa3f14e9c12a4d"
   },
   "runs": [
     {
